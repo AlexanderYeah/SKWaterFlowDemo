@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11104A341F7691D700F7ED28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A331F7691D700F7ED28 /* main.m */; };
+		11104A371F7691D700F7ED28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A361F7691D700F7ED28 /* AppDelegate.m */; };
+		11104A3A1F7691D700F7ED28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A391F7691D700F7ED28 /* ViewController.m */; };
+		11104A3D1F7691D700F7ED28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11104A3B1F7691D700F7ED28 /* Main.storyboard */; };
+		11104A3F1F7691D700F7ED28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11104A3E1F7691D700F7ED28 /* Assets.xcassets */; };
+		11104A421F7691D700F7ED28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11104A401F7691D700F7ED28 /* LaunchScreen.storyboard */; };
+		11104A4D1F7691D700F7ED28 /* SKWaterFlowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A4C1F7691D700F7ED28 /* SKWaterFlowDemoTests.m */; };
+		11104A581F7691D700F7ED28 /* SKWaterFlowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A571F7691D700F7ED28 /* SKWaterFlowDemoUITests.m */; };
+		11104A671F76924D00F7ED28 /* SKWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104A661F76924D00F7ED28 /* SKWaterFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11104A491F7691D700F7ED28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11104A271F7691D700F7ED28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11104A2E1F7691D700F7ED28;
+			remoteInfo = SKWaterFlowDemo;
+		};
+		11104A541F7691D700F7ED28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11104A271F7691D700F7ED28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11104A2E1F7691D700F7ED28;
+			remoteInfo = SKWaterFlowDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11104A2F1F7691D700F7ED28 /* SKWaterFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKWaterFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11104A331F7691D700F7ED28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11104A351F7691D700F7ED28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11104A361F7691D700F7ED28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11104A381F7691D700F7ED28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11104A391F7691D700F7ED28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		11104A3C1F7691D700F7ED28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11104A3E1F7691D700F7ED28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11104A411F7691D700F7ED28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11104A431F7691D700F7ED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11104A481F7691D700F7ED28 /* SKWaterFlowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKWaterFlowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11104A4C1F7691D700F7ED28 /* SKWaterFlowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWaterFlowDemoTests.m; sourceTree = "<group>"; };
+		11104A4E1F7691D700F7ED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11104A531F7691D700F7ED28 /* SKWaterFlowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKWaterFlowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11104A571F7691D700F7ED28 /* SKWaterFlowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKWaterFlowDemoUITests.m; sourceTree = "<group>"; };
+		11104A591F7691D700F7ED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11104A651F76924D00F7ED28 /* SKWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWaterFlowLayout.h; sourceTree = "<group>"; };
+		11104A661F76924D00F7ED28 /* SKWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWaterFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11104A2C1F7691D700F7ED28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A451F7691D700F7ED28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A501F7691D700F7ED28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11104A261F7691D700F7ED28 = {
+			isa = PBXGroup;
+			children = (
+				11104A311F7691D700F7ED28 /* SKWaterFlowDemo */,
+				11104A4B1F7691D700F7ED28 /* SKWaterFlowDemoTests */,
+				11104A561F7691D700F7ED28 /* SKWaterFlowDemoUITests */,
+				11104A301F7691D700F7ED28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11104A301F7691D700F7ED28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11104A2F1F7691D700F7ED28 /* SKWaterFlowDemo.app */,
+				11104A481F7691D700F7ED28 /* SKWaterFlowDemoTests.xctest */,
+				11104A531F7691D700F7ED28 /* SKWaterFlowDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11104A311F7691D700F7ED28 /* SKWaterFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11104A351F7691D700F7ED28 /* AppDelegate.h */,
+				11104A361F7691D700F7ED28 /* AppDelegate.m */,
+				11104A381F7691D700F7ED28 /* ViewController.h */,
+				11104A391F7691D700F7ED28 /* ViewController.m */,
+				11104A651F76924D00F7ED28 /* SKWaterFlowLayout.h */,
+				11104A661F76924D00F7ED28 /* SKWaterFlowLayout.m */,
+				11104A3B1F7691D700F7ED28 /* Main.storyboard */,
+				11104A3E1F7691D700F7ED28 /* Assets.xcassets */,
+				11104A401F7691D700F7ED28 /* LaunchScreen.storyboard */,
+				11104A431F7691D700F7ED28 /* Info.plist */,
+				11104A321F7691D700F7ED28 /* Supporting Files */,
+			);
+			path = SKWaterFlowDemo;
+			sourceTree = "<group>";
+		};
+		11104A321F7691D700F7ED28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11104A331F7691D700F7ED28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11104A4B1F7691D700F7ED28 /* SKWaterFlowDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				11104A4C1F7691D700F7ED28 /* SKWaterFlowDemoTests.m */,
+				11104A4E1F7691D700F7ED28 /* Info.plist */,
+			);
+			path = SKWaterFlowDemoTests;
+			sourceTree = "<group>";
+		};
+		11104A561F7691D700F7ED28 /* SKWaterFlowDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11104A571F7691D700F7ED28 /* SKWaterFlowDemoUITests.m */,
+				11104A591F7691D700F7ED28 /* Info.plist */,
+			);
+			path = SKWaterFlowDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11104A2E1F7691D700F7ED28 /* SKWaterFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11104A5C1F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemo" */;
+			buildPhases = (
+				11104A2B1F7691D700F7ED28 /* Sources */,
+				11104A2C1F7691D700F7ED28 /* Frameworks */,
+				11104A2D1F7691D700F7ED28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKWaterFlowDemo;
+			productName = SKWaterFlowDemo;
+			productReference = 11104A2F1F7691D700F7ED28 /* SKWaterFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11104A471F7691D700F7ED28 /* SKWaterFlowDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11104A5F1F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemoTests" */;
+			buildPhases = (
+				11104A441F7691D700F7ED28 /* Sources */,
+				11104A451F7691D700F7ED28 /* Frameworks */,
+				11104A461F7691D700F7ED28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11104A4A1F7691D700F7ED28 /* PBXTargetDependency */,
+			);
+			name = SKWaterFlowDemoTests;
+			productName = SKWaterFlowDemoTests;
+			productReference = 11104A481F7691D700F7ED28 /* SKWaterFlowDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11104A521F7691D700F7ED28 /* SKWaterFlowDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11104A621F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemoUITests" */;
+			buildPhases = (
+				11104A4F1F7691D700F7ED28 /* Sources */,
+				11104A501F7691D700F7ED28 /* Frameworks */,
+				11104A511F7691D700F7ED28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11104A551F7691D700F7ED28 /* PBXTargetDependency */,
+			);
+			name = SKWaterFlowDemoUITests;
+			productName = SKWaterFlowDemoUITests;
+			productReference = 11104A531F7691D700F7ED28 /* SKWaterFlowDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11104A271F7691D700F7ED28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = alexander;
+				TargetAttributes = {
+					11104A2E1F7691D700F7ED28 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					11104A471F7691D700F7ED28 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11104A2E1F7691D700F7ED28;
+					};
+					11104A521F7691D700F7ED28 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11104A2E1F7691D700F7ED28;
+					};
+				};
+			};
+			buildConfigurationList = 11104A2A1F7691D700F7ED28 /* Build configuration list for PBXProject "SKWaterFlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11104A261F7691D700F7ED28;
+			productRefGroup = 11104A301F7691D700F7ED28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11104A2E1F7691D700F7ED28 /* SKWaterFlowDemo */,
+				11104A471F7691D700F7ED28 /* SKWaterFlowDemoTests */,
+				11104A521F7691D700F7ED28 /* SKWaterFlowDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11104A2D1F7691D700F7ED28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11104A421F7691D700F7ED28 /* LaunchScreen.storyboard in Resources */,
+				11104A3F1F7691D700F7ED28 /* Assets.xcassets in Resources */,
+				11104A3D1F7691D700F7ED28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A461F7691D700F7ED28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A511F7691D700F7ED28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11104A2B1F7691D700F7ED28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11104A3A1F7691D700F7ED28 /* ViewController.m in Sources */,
+				11104A671F76924D00F7ED28 /* SKWaterFlowLayout.m in Sources */,
+				11104A371F7691D700F7ED28 /* AppDelegate.m in Sources */,
+				11104A341F7691D700F7ED28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A441F7691D700F7ED28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11104A4D1F7691D700F7ED28 /* SKWaterFlowDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11104A4F1F7691D700F7ED28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11104A581F7691D700F7ED28 /* SKWaterFlowDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11104A4A1F7691D700F7ED28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11104A2E1F7691D700F7ED28 /* SKWaterFlowDemo */;
+			targetProxy = 11104A491F7691D700F7ED28 /* PBXContainerItemProxy */;
+		};
+		11104A551F7691D700F7ED28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11104A2E1F7691D700F7ED28 /* SKWaterFlowDemo */;
+			targetProxy = 11104A541F7691D700F7ED28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11104A3B1F7691D700F7ED28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11104A3C1F7691D700F7ED28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11104A401F7691D700F7ED28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11104A411F7691D700F7ED28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11104A5A1F7691D700F7ED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11104A5B1F7691D700F7ED28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11104A5D1F7691D700F7ED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11104A5E1F7691D700F7ED28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11104A601F7691D700F7ED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKWaterFlowDemo.app/SKWaterFlowDemo";
+			};
+			name = Debug;
+		};
+		11104A611F7691D700F7ED28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKWaterFlowDemo.app/SKWaterFlowDemo";
+			};
+			name = Release;
+		};
+		11104A631F7691D700F7ED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKWaterFlowDemo;
+			};
+			name = Debug;
+		};
+		11104A641F7691D700F7ED28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKWaterFlowDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKWaterFlowDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKWaterFlowDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11104A2A1F7691D700F7ED28 /* Build configuration list for PBXProject "SKWaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11104A5A1F7691D700F7ED28 /* Debug */,
+				11104A5B1F7691D700F7ED28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11104A5C1F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11104A5D1F7691D700F7ED28 /* Debug */,
+				11104A5E1F7691D700F7ED28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11104A5F1F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11104A601F7691D700F7ED28 /* Debug */,
+				11104A611F7691D700F7ED28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11104A621F7691D700F7ED28 /* Build configuration list for PBXNativeTarget "SKWaterFlowDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11104A631F7691D700F7ED28 /* Debug */,
+				11104A641F7691D700F7ED28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11104A271F7691D700F7ED28 /* Project object */;
+}
