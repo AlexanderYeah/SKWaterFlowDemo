@@ -28,7 +28,7 @@ static NSString * const SKID = @"cellID";
     // 创建布局
     SKWaterFlowLayout *layout = [[SKWaterFlowLayout alloc]init];
     // 创建collectionView
-    _collectView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 100, kScreenW,collectHeight ) collectionViewLayout:layout];
+    _collectView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, kScreenW,kScreenH ) collectionViewLayout:layout];
     _collectView.delegate = self;
     _collectView.dataSource = self;
     [self.view addSubview:_collectView];
@@ -48,7 +48,7 @@ static NSString * const SKID = @"cellID";
 // UICollectview Datasource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-        return 18;
+        return 50;
     
 }
 
@@ -57,6 +57,11 @@ static NSString * const SKID = @"cellID";
 {
 	UICollectionViewCell *cell = [self.collectView dequeueReusableCellWithReuseIdentifier:SKID forIndexPath:indexPath];
 	
+	
+	UILabel *label = [[UILabel alloc]init];
+	label.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
+	label.textColor = [UIColor redColor];
+	[cell.contentView addSubview:label];
 	cell.backgroundColor = [UIColor orangeColor];
 	return cell;
 	
